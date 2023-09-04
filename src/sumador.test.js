@@ -1,7 +1,6 @@
 import mover from "./sumador.js";
-
-describe("Mover Auto", () => {
-  it("deberia mostrar la posicion inicial en 0,0N", () => {
+describe("mover_auto", () => {
+  it("deberia mostrar la posicion inicial 0,0N", () => {
     expect(mover()).toEqual("0,0N");
   });
 });
