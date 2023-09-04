@@ -1,13 +1,5 @@
-function matriz(filas, columnas) {
-  var matriz = [];
-  for (var i = 0; i < filas; i++) {
-    matriz[i] = [];
-    for (var j = 0; j < columnas; j++) {
-
-      matriz[i][j] = "0"; 
-    }
-  }
-  return matriz;
+function mover(m){
+  return "0,0N";
 }
 
-export default matriz;
+export default mover;
